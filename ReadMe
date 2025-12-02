@@ -1,0 +1,91 @@
+# 💰 Expense Tracker with Budget Insights  
+A simple and powerful **Expense Tracker** built using **React + Firebase**, featuring real-time sync, charts, authentication, and monthly insights.
+
+---
+
+## 🚀 Features
+- ✅ Add, edit, delete expenses  
+- ✅ Track income vs. expenses  
+- ✅ Firebase Authentication  
+- ✅ Firestore real-time storage  
+- ✅ Monthly analytics & charts (Chart.js)  
+- ✅ Download data as CSV  
+- 🎨 Clean & responsive UI  
+
+---
+
+## 🛠️ Tech Stack
+- **React.js**
+- **Firebase Authentication**
+- **Firestore Database**
+- **Chart.js**
+- **CSS / Tailwind (optional)**
+
+---
+
+## 📁 Folder Structure
+```
+ExpenseTracker/
+│– public/
+│– src/
+│   │– components/
+│   │– pages/
+│   │– context/
+│   │– firebase.js
+│   └– App.js
+│– package.json
+└– README.md
+```
+
+---
+
+## 🔧 Setup Instructions
+
+### 1️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 2️⃣ Add Firebase Config  
+Go to `src/firebase.js` and replace:
+
+```js
+const firebaseConfig = {
+  apiKey: "YOUR_KEY",
+  authDomain: "YOUR_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_BUCKET",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+```
+
+### 3️⃣ Start the app
+```bash
+npm start
+```
+
+---
+
+## 📸 Screenshots (Add your own)
+- Dashboard  
+- Expense Entry  
+- Chart View  
+
+---
+
+## 📤 Deployment
+You can deploy on:  
+- **Vercel**  
+- **Netlify**  
+- **Firebase Hosting**
+
+---
+
+## 📄 License
+MIT License
+
+---
+
+## 👤 Author  
+Your Name  
